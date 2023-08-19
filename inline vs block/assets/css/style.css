@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    border: 2px solid dodgerblue;
+    padding: 10px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+a{
+    border: 2px solid yellowgreen;
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}

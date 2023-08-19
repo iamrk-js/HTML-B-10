@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Box Sizing</title>
+    <style>
+        .box {
+           width: 300px;
+           height: 300px;
+           border: 5px solid ;
+           padding: 30px;
+           box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    box-sizing >> is used to calculate/control how the total height and width
+    of HTML element is caculated
+
+  
+    content-box : this is the default value of box-sizing, the height and width only 
+        includes content , padding and border does not affects width and height 
+
+    border-box : the height and width includes content, padding and border as well.
+
+    
+    <div class="box">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, ducimus!
+    </div>
+</body>
+
+</html>

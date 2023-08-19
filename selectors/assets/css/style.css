@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    /* border: 5px solid dodgerblue ; */
+    text-align: center;
+   
+}
+.header h1{
+    display: inline-block;
+    position: relative;
+    transition: all .4s ease-in;
+}
+
+.header h1::before{
+    content: "I";
+   
+}
+
+.header h1::after{
+    content: "javaScript";
+}
+
+/* .header h1:hover::before{
+    width: 100%;
+} */
